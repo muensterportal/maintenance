@@ -9,13 +9,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title or metadata.title}}</title>
     
-    {% if build.env == "production" %}
+    {# {% if build.env == "production" %}
     
         <link href="/maintenance/assets/bootstrap.min.css" rel="stylesheet">
-    {% else %}
-        <link href="/assets/bootstrap.min.css" rel="stylesheet">
+    {% else %} #}
+        {# <link href="/assets/bootstrap.min.css" rel="stylesheet"> #}
+        <link rel="stylesheet" href="{{ '/assets/bootstrap.min.css' | url }}" />
+
        
-    {% endif %}
+    {# {% endif %} #}
 
     {% if build.env == "production" %}
         {# Add any CSS from the main script #}

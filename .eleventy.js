@@ -9,8 +9,10 @@ const { dateTimeFilter } = require("./src/setup/filters/dateTime.filter.js");
 const { activityFilter } = require("./src/setup/filters/activityFilter.filter.js");
 const { yearFilter } = require("./src/setup/filters/yearFilter.filter.js");
 const { viteScriptTag, viteLegacyScriptTag, viteLinkStylesheetTags } = require("./src/setup/shortcodes/vite.shortcode.js");
+// const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 const TEMPLATE_ENGINE = config.TEMPLATE_ENGINE;
+const isProduction = process.env.NODE_ENV === "production";
 
 // This will change both Eleventy's pathPrefix, and the one output by the
 // vite-related shortcodes below. Double-check if you change this, as this is only a demo :)
@@ -18,6 +20,8 @@ const PATH_PREFIX = config.PATH_PREFIX;
 
 module.exports = function (eleventyConfig) {
   // eleventyConfig.addPassthroughCopy({ static: '.' });
+
+  // eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
   // eleventyConfig.addWatchTarget('./items');
   eleventyConfig.addWatchTarget('./src/frontend/');
