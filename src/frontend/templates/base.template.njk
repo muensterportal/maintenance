@@ -8,7 +8,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title or metadata.title}}</title>
-    <link href="/assets/bootstrap.min.css" rel="stylesheet">
+    
+    {% if build.env == "production" %}
+    
+        <link href="/maintenance/assets/bootstrap.min.css" rel="stylesheet">
+    {% else %}
+        <link href="/assets/bootstrap.min.css" rel="stylesheet">
+       
+    {% endif %}
 
     {% if build.env == "production" %}
         {# Add any CSS from the main script #}
@@ -72,13 +79,14 @@
         })
     }} #}
 
-    <script src="/assets/bootstrap.bundle.min.js"></script>
-
+    
     {#  scripts #}
     {% if build.env == "production" %}
-        {# We must read the production scripts from the Vite manifest. We defer that logic to a custom shortcode #}
-        {% viteScriptTag config.ENTRY_FILE %}
+        <script src="/maintenance/assets/bootstrap.bundle.min.js"></script>
+    {# We must read the production scripts from the Vite manifest. We defer that logic to a custom shortcode #}
+    {% viteScriptTag config.ENTRY_FILE %}
     {% else %}
+        <script src="/assets/bootstrap.bundle.min.js"></script>
         {# The vite development client #}
         <script type="module" src="{{config.HOST_VITE}}/@vite/client"></script>
 
