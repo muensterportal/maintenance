@@ -1,0 +1,54 @@
+
+{% set tech = params.portfolio.tech %}
+
+
+<div class="container my-5">
+  <h1>Welcome to robert.berlin</h1>
+  <p> With the following website I want to provide you </p>
+</div>
+{{
+  component("search", {
+    placeholder: "search my skill",
+    uid: "skills",
+    category: "skills",
+    no_result: ["Maybe", "that is a skill I have to develop or I forgot to list!" ]
+  })
+}}
+  <div class="container my-5">
+    <div class="col-lg-8 px-0">
+
+      <h2>🧠 Skills</h2>
+
+      
+
+      <h3>💅 Web</h3>
+
+      <ul role="list">
+        {% for key, value in tech %}
+          <li class="chip level level--{{value.level}}" data-skill="{{value.name}}" role="listitem" tabindex="1">
+            <img src="/assets/tech/{{value.icon}}" alt="Icon of {{value.name}}" width="96" height="96">
+            <span class="skill-value">{{value.name}}</span>
+            <span class="skill-search hidden">{{value.name}}</span>
+    
+          </li>
+        {% endfor %}
+        </ul>
+    </div>
+    <div class="container my-5">
+      <small>Legende:</small>
+      <div class="levels">
+        {% for key, value in params.portfolio.levels %}
+        <div class="chip level level--{{value}} level--small chip--small d-block">
+          {{key}}
+        </div>
+        {% endfor %}
+      </div>
+
+    </div>
+
+        
+
+
+      {# <a href="https://getbootstrap.com" class="btn btn-primary">Read the Bootstrap docs</a>
+      <a href="https://github.com/twbs/examples" class="btn btn-secondary">View on GitHub</a> #}
+  </div>

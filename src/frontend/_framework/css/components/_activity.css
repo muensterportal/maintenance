@@ -1,0 +1,38 @@
+.activity thead tr td{
+    font-size: 6px;
+    font-weight: bold;
+    color: white;
+}
+.activity tbody tr td{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(55, 54, 54);
+    border: 1px solid black;
+}
+.activity tbody tr td.high{
+    background-color: lime
+}
+.activity tbody tr td.medium{
+    background-color: green
+}
+.activity tbody tr td.low{
+    background-color: darkgreen
+}
+/* .activity tbody tr td.none{
+    background-color: black;
+} */
+.activity__table{
+    height: 30px;
+    background-color: black;
+    padding: 2px;
+}
+
+.fixed-height-table {
+    height: 20px; /* Set the height for the entire table */
+    overflow: hidden; /* Allows scrolling if content exceeds the height */
+    display: block; /* Ensures the table respects the height */
+  }
+
+  .fixed-height-table tr {
+    height: 10px; /* Set fixed height for each row */
+  }

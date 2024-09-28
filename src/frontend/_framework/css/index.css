@@ -1,0 +1,17 @@
+
+@import './components/_fonts.css';
+@import './../../components/molecules/search/search.molecule.css';
+@import './../../components/molecules/chip/chip.molecule.css';
+@import './components/_levels.css';
+@import './components/_activity.css';
+
+.hidden {
+    display: none;
+}
+
+body{
+    background-color: #202125;
+    color: white;
+    font-family:monospace;
+}
+

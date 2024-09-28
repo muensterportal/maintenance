@@ -1,0 +1,60 @@
+---
+layout: base.template.njk
+title: Eleventy with Vite
+---
+{%- from "./../templates/_setup/macros/component.macro.njk" import component -%}
+
+
+
+    {% for key, project in projects %}
+    <h2>{{key}}</h2>
+
+        <table class="table table-striped">
+            <tr>
+                <th>Logo</th>
+                <th>Key</th>
+                <th>url</th>
+                {# <th>Value</th> #}
+                <th>revisions</th>
+                <th>first change</th>
+                <th>Activity</th>
+            </tr>
+            {% for key, value in project.projects %}
+                <tr>
+                    <td><img src="{{project.logoUrl | safe}}" width="40" height="40" /></td>
+                <td>{{ key }}</td>
+                <td><a href="{{ value.url | url}}" target="_blank">{{ value.title }}</a></td>
+                {# <td>{{ value }}</td> #}
+                <td>{{ value.revisions.length }}</td>
+                <td>{{ value.revisions[ value.revisions.length -1 ].timestamp }}</td>
+                <td>
+                    <div class="activity__table">
+
+                        <table class="activity fixed-height-table">
+                            <thead>
+                                <tr>
+                                    {% for year in range(value.start, value.end +1) %}
+                                    <td>{{ year | shortyear }}</td>
+                                    {% endfor %}
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    {% for year in range(value.start, value.end +1) %}
+                                    {% set activityClass = value.years[year] | activity %}
+                                    <td class="{{ activityClass }}">&nbsp;</td>
+                                    {% endfor %}
+                                </tr>
+                            </tbody>    
+                        </table>
+                    </div>
+                </td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% endfor %}
+
+
+{# {% for key, value in data %}
+  <p>{{ key }}: {{ value }}</p>
+{% endfor %} #}

@@ -1,0 +1,2206 @@
+{
+  "muensterwiki": {
+    "url": "https://muensterwiki.de",
+    "projects": {
+      "2111": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Fred",
+            "timestamp": "2014-12-16T18:22:28Z",
+            "revid": 32533
+          },
+          {
+            "user": "Johann Gregor",
+            "timestamp": "2006-07-10T11:56:49Z",
+            "revid": 4679
+          },
+          {
+            "user": "212.185.28.83",
+            "timestamp": "2006-06-27T09:46:48Z",
+            "revid": 4623
+          },
+          {
+            "user": "212.185.28.83",
+            "timestamp": "2006-06-27T09:45:31Z",
+            "revid": 4622
+          }
+        ],
+        "start": 2006,
+        "end": 2024,
+        "years": {
+          "2006": 3,
+          "2014": 1
+        },
+        "title": "1. TTC Tischtennis-Club Münster von 1928 e. V.",
+        "id": 2111,
+        "urlID": "https://muensterwiki.de/index.php/?curid=2111",
+        "url": "http://muensterwiki.de/index.php/1._TTC_Tischtennis-Club_M%C3%BCnster_von_1928_e._V."
+      },
+      "2873": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-01T19:30:24Z",
+            "revid": 50414
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-01T19:19:30Z",
+            "revid": 50411
+          },
+          {
+            "user": "Joachim Stiller",
+            "timestamp": "2017-10-29T12:22:46Z",
+            "revid": 36998
+          },
+          {
+            "user": "Joachim Stiller",
+            "timestamp": "2017-10-26T20:54:59Z",
+            "revid": 35953
+          },
+          {
+            "user": "Joachim Stiller",
+            "timestamp": "2017-10-26T20:51:48Z",
+            "revid": 35950
+          },
+          {
+            "user": "Joachim Stiller",
+            "timestamp": "2017-10-26T18:34:33Z",
+            "revid": 35862
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-08-25T15:55:19Z",
+            "revid": 31923
+          },
+          {
+            "user": "Meschede",
+            "timestamp": "2009-03-11T20:26:01Z",
+            "revid": 14821
+          },
+          {
+            "user": "Meschede",
+            "timestamp": "2009-02-11T20:25:19Z",
+            "revid": 14505
+          },
+          {
+            "user": "Meschede",
+            "timestamp": "2009-02-08T18:35:03Z",
+            "revid": 14477
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2008-09-18T14:30:15Z",
+            "revid": 13666
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2008-09-18T12:58:27Z",
+            "revid": 13663
+          },
+          {
+            "user": "Tiw",
+            "timestamp": "2008-09-17T20:33:28Z",
+            "revid": 13660
+          },
+          {
+            "user": "62.226.71.148",
+            "timestamp": "2008-04-30T11:41:51Z",
+            "revid": 9727
+          },
+          {
+            "user": "85.181.239.109",
+            "timestamp": "2008-04-03T13:28:39Z",
+            "revid": 9497
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2007-06-29T13:08:42Z",
+            "revid": 8163
+          },
+          {
+            "user": "82.207.249.30",
+            "timestamp": "2007-04-07T19:28:20Z",
+            "revid": 7267
+          },
+          {
+            "user": "195.93.60.129",
+            "timestamp": "2007-04-07T19:25:00Z",
+            "revid": 7266
+          },
+          {
+            "user": "195.93.60.129",
+            "timestamp": "2007-04-07T19:18:55Z",
+            "revid": 7265
+          },
+          {
+            "user": "195.93.60.129",
+            "timestamp": "2007-04-07T19:17:12Z",
+            "revid": 7264
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2007-01-09T11:31:57Z",
+            "revid": 6680
+          },
+          {
+            "user": "82.207.130.38",
+            "timestamp": "2006-10-17T10:25:47Z",
+            "revid": 6007
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2006-10-14T14:05:23Z",
+            "revid": 5985
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2006-10-13T16:20:00Z",
+            "revid": 5983
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2006-10-13T13:59:23Z",
+            "revid": 5981
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2006-10-13T12:03:01Z",
+            "revid": 5979
+          }
+        ],
+        "start": 2006,
+        "end": 2024,
+        "years": {
+          "2006": 5,
+          "2007": 6,
+          "2008": 5,
+          "2009": 3,
+          "2014": 1,
+          "2017": 4,
+          "2024": 2
+        },
+        "title": "\"Wiedertäufer-Käfige\"",
+        "id": 2873,
+        "urlID": "https://muensterwiki.de/index.php/?curid=2873",
+        "url": "http://muensterwiki.de/index.php/%22Wiedert%C3%A4ufer-K%C3%A4fige%22"
+      },
+      "3175": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-04-27T06:10:12Z",
+            "revid": 54601
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-04-20T00:30:01Z",
+            "revid": 54342
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-15T01:04:20Z",
+            "revid": 53199
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2016-10-27T12:25:22Z",
+            "revid": 34403
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2015-12-11T17:30:40Z",
+            "revid": 33192
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-03-07T16:45:31Z",
+            "revid": 31654
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-12-06T16:21:46Z",
+            "revid": 31189
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-07-12T21:44:56Z",
+            "revid": 30466
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-07-12T21:26:55Z",
+            "revid": 30465
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-12-22T16:41:08Z",
+            "revid": 28146
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-10-30T17:26:15Z",
+            "revid": 27285
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-10-30T17:24:06Z",
+            "revid": 27283
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-07-15T18:34:13Z",
+            "revid": 25717
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-05-06T03:48:37Z",
+            "revid": 24669
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-05-06T03:46:43Z",
+            "revid": 24667
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-05-06T03:35:09Z",
+            "revid": 24666
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-05-06T03:24:23Z",
+            "revid": 24662
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-05-06T03:15:28Z",
+            "revid": 24660
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-12-19T14:21:18Z",
+            "revid": 21828
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-04-08T16:43:16Z",
+            "revid": 17517
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2009-06-26T09:30:34Z",
+            "revid": 15560
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2008-12-11T17:10:33Z",
+            "revid": 14012
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2008-08-30T09:21:45Z",
+            "revid": 13548
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2007-07-17T15:26:55Z",
+            "revid": 8335
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2007-06-01T12:43:07Z",
+            "revid": 7761
+          }
+        ],
+        "start": 2007,
+        "end": 2024,
+        "years": {
+          "2007": 2,
+          "2008": 2,
+          "2009": 1,
+          "2010": 1,
+          "2011": 1,
+          "2012": 9,
+          "2013": 3,
+          "2014": 1,
+          "2015": 1,
+          "2016": 1,
+          "2024": 3
+        },
+        "title": "10. Dezember",
+        "id": 3175,
+        "urlID": "https://muensterwiki.de/index.php/?curid=3175",
+        "url": "http://muensterwiki.de/index.php/10._Dezember"
+      },
+      "3217": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-15T00:28:32Z",
+            "revid": 52891
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-06T15:17:34Z",
+            "revid": 50575
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2020-01-31T14:23:19Z",
+            "revid": 40687
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-12-12T15:59:07Z",
+            "revid": 32514
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-06-21T01:44:10Z",
+            "revid": 30145
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-06-12T15:42:37Z",
+            "revid": 30037
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-02-01T05:14:54Z",
+            "revid": 28867
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-02-01T05:04:46Z",
+            "revid": 28863
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-08-18T18:38:46Z",
+            "revid": 26132
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-07-06T16:44:40Z",
+            "revid": 25611
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-10-21T16:39:16Z",
+            "revid": 19414
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-10-21T16:38:52Z",
+            "revid": 19413
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-09-03T11:42:37Z",
+            "revid": 18951
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-04-07T14:43:17Z",
+            "revid": 17497
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-03-21T18:01:46Z",
+            "revid": 17262
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-02-06T10:03:55Z",
+            "revid": 16903
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2007-08-30T14:40:34Z",
+            "revid": 8551
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2007-07-18T13:32:35Z",
+            "revid": 8344
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2007-06-14T16:24:40Z",
+            "revid": 7924
+          }
+        ],
+        "start": 2007,
+        "end": 2024,
+        "years": {
+          "2007": 3,
+          "2010": 6,
+          "2012": 2,
+          "2013": 4,
+          "2014": 1,
+          "2020": 1,
+          "2024": 2
+        },
+        "title": "1. Februar",
+        "id": 3217,
+        "urlID": "https://muensterwiki.de/index.php/?curid=3217",
+        "url": "http://muensterwiki.de/index.php/1._Februar"
+      },
+      "3307": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-15T01:03:18Z",
+            "revid": 53190
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2020-02-03T09:19:37Z",
+            "revid": 40788
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-10-12T19:33:42Z",
+            "revid": 26906
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-11-22T01:05:34Z",
+            "revid": 21381
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-10-25T16:01:24Z",
+            "revid": 19518
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2007-06-28T16:35:20Z",
+            "revid": 8133
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2007-06-28T15:16:20Z",
+            "revid": 8126
+          }
+        ],
+        "start": 2007,
+        "end": 2024,
+        "years": {
+          "2007": 2,
+          "2010": 1,
+          "2011": 1,
+          "2012": 1,
+          "2020": 1,
+          "2024": 1
+        },
+        "title": "1. Dezember",
+        "id": 3307,
+        "urlID": "https://muensterwiki.de/index.php/?curid=3307",
+        "url": "http://muensterwiki.de/index.php/1._Dezember"
+      },
+      "3352": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-15T00:35:22Z",
+            "revid": 52950
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-01T15:15:01Z",
+            "revid": 50305
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2020-01-31T15:00:10Z",
+            "revid": 40705
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-09-26T16:10:04Z",
+            "revid": 32318
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-09-19T16:16:59Z",
+            "revid": 32144
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-04-01T16:35:29Z",
+            "revid": 31703
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-01-11T14:34:26Z",
+            "revid": 28484
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-09-13T15:01:21Z",
+            "revid": 26451
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-04-04T12:45:29Z",
+            "revid": 24424
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-08-05T16:19:58Z",
+            "revid": 20509
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-02-02T14:16:56Z",
+            "revid": 20109
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2008-09-13T11:04:39Z",
+            "revid": 13634
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2008-09-05T12:27:32Z",
+            "revid": 13582
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2007-06-30T12:53:28Z",
+            "revid": 8188
+          }
+        ],
+        "start": 2007,
+        "end": 2024,
+        "years": {
+          "2007": 1,
+          "2008": 2,
+          "2011": 2,
+          "2012": 2,
+          "2013": 1,
+          "2014": 3,
+          "2020": 1,
+          "2024": 2
+        },
+        "title": "1. April",
+        "id": 3352,
+        "urlID": "https://muensterwiki.de/index.php/?curid=3352",
+        "url": "http://muensterwiki.de/index.php/1._April"
+      },
+      "3369": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-15T00:25:07Z",
+            "revid": 52861
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2020-11-11T17:06:02Z",
+            "revid": 46363
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2020-01-31T14:05:37Z",
+            "revid": 40678
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2017-10-23T22:24:09Z",
+            "revid": 34920
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2016-03-08T17:26:34Z",
+            "revid": 34071
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2015-12-16T11:10:09Z",
+            "revid": 33222
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2015-06-12T15:55:22Z",
+            "revid": 32839
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-04-01T16:33:10Z",
+            "revid": 31701
+          },
+          {
+            "user": "Bulli2",
+            "timestamp": "2014-01-03T17:22:12Z",
+            "revid": 31256
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2014-01-01T15:46:04Z",
+            "revid": 31248
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-11-08T16:20:09Z",
+            "revid": 31034
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-09-06T16:10:10Z",
+            "revid": 30694
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-01-01T17:40:45Z",
+            "revid": 28439
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-01-01T17:19:04Z",
+            "revid": 28437
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-10-30T16:21:02Z",
+            "revid": 27257
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-10-02T16:01:27Z",
+            "revid": 26680
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-08-30T11:39:18Z",
+            "revid": 26281
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-08-21T03:49:17Z",
+            "revid": 26224
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-08-19T19:14:41Z",
+            "revid": 26165
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-03-19T13:09:22Z",
+            "revid": 24391
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2010-09-14T21:03:18Z",
+            "revid": 19019
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-04-11T17:01:04Z",
+            "revid": 17529
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-03-26T15:52:08Z",
+            "revid": 17344
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2009-04-09T12:18:06Z",
+            "revid": 15024
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2009-03-18T19:49:42Z",
+            "revid": 14867
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2007-11-13T15:44:05Z",
+            "revid": 8858
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2007-07-07T09:58:02Z",
+            "revid": 8235
+          }
+        ],
+        "start": 2007,
+        "end": 2024,
+        "years": {
+          "2007": 2,
+          "2009": 2,
+          "2010": 3,
+          "2012": 6,
+          "2013": 4,
+          "2014": 3,
+          "2015": 2,
+          "2016": 1,
+          "2017": 1,
+          "2020": 2,
+          "2024": 1
+        },
+        "title": "1. Januar",
+        "id": 3369,
+        "urlID": "https://muensterwiki.de/index.php/?curid=3369",
+        "url": "http://muensterwiki.de/index.php/1._Januar"
+      },
+      "3407": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-15T00:56:11Z",
+            "revid": 53129
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-12T23:35:14Z",
+            "revid": 51686
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-10T00:03:36Z",
+            "revid": 51069
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-09T23:26:46Z",
+            "revid": 51012
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2021-01-14T16:12:33Z",
+            "revid": 46893
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2020-02-02T19:52:31Z",
+            "revid": 40770
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2020-02-02T19:38:17Z",
+            "revid": 40765
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2017-10-06T15:10:42Z",
+            "revid": 34898
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-12-22T13:11:42Z",
+            "revid": 32633
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-12-12T16:25:14Z",
+            "revid": 32526
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-12-12T16:20:50Z",
+            "revid": 32523
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-06-21T01:59:55Z",
+            "revid": 30147
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-02-26T17:38:06Z",
+            "revid": 29337
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-12-26T20:44:24Z",
+            "revid": 28321
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-09-29T18:13:02Z",
+            "revid": 26591
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-08-29T17:40:03Z",
+            "revid": 26275
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-08-16T15:01:33Z",
+            "revid": 26051
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-08-12T14:41:20Z",
+            "revid": 25966
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-06-23T14:45:31Z",
+            "revid": 25318
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-04-05T16:17:11Z",
+            "revid": 24467
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-04-04T16:01:47Z",
+            "revid": 24431
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-04-04T15:59:49Z",
+            "revid": 24428
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-02-23T13:18:44Z",
+            "revid": 23827
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-02-18T16:17:39Z",
+            "revid": 23264
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-12-19T14:41:44Z",
+            "revid": 21836
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-12-15T17:11:42Z",
+            "revid": 21732
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-12-06T13:54:20Z",
+            "revid": 21515
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-03-11T16:37:46Z",
+            "revid": 20227
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-05-04T08:20:36Z",
+            "revid": 17825
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-03-26T16:25:18Z",
+            "revid": 17359
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2007-09-01T12:45:38Z",
+            "revid": 8589
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2007-07-17T15:48:39Z",
+            "revid": 8337
+          }
+        ],
+        "start": 2007,
+        "end": 2024,
+        "years": {
+          "2007": 2,
+          "2010": 2,
+          "2011": 4,
+          "2012": 11,
+          "2013": 2,
+          "2014": 3,
+          "2017": 1,
+          "2020": 2,
+          "2021": 1,
+          "2024": 4
+        },
+        "title": "1. Oktober",
+        "id": 3407,
+        "urlID": "https://muensterwiki.de/index.php/?curid=3407",
+        "url": "http://muensterwiki.de/index.php/1._Oktober"
+      },
+      "3516": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-15T00:52:50Z",
+            "revid": 53100
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-09T23:26:47Z",
+            "revid": 51013
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2020-02-02T18:48:38Z",
+            "revid": 40753
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2017-01-18T14:41:30Z",
+            "revid": 34644
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-07-04T15:05:31Z",
+            "revid": 30308
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-10-02T10:03:37Z",
+            "revid": 26646
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-09-01T07:55:14Z",
+            "revid": 26309
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-06-24T14:13:54Z",
+            "revid": 25371
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-06-24T14:06:48Z",
+            "revid": 25369
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-05-29T14:56:49Z",
+            "revid": 24950
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-05-01T15:27:00Z",
+            "revid": 24612
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-04-04T16:40:36Z",
+            "revid": 24448
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-09-02T15:53:46Z",
+            "revid": 20735
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-09-02T15:53:24Z",
+            "revid": 20734
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2010-10-17T22:38:09Z",
+            "revid": 19296
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2010-10-17T22:36:47Z",
+            "revid": 19294
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-06-25T13:40:14Z",
+            "revid": 18484
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-06-24T15:46:04Z",
+            "revid": 18453
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-05-02T14:34:03Z",
+            "revid": 17742
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-03-15T14:33:58Z",
+            "revid": 17225
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2008-08-25T16:52:20Z",
+            "revid": 13500
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2007-09-10T11:00:41Z",
+            "revid": 8692
+          }
+        ],
+        "start": 2007,
+        "end": 2024,
+        "years": {
+          "2007": 1,
+          "2008": 1,
+          "2010": 6,
+          "2011": 2,
+          "2012": 7,
+          "2013": 1,
+          "2017": 1,
+          "2020": 1,
+          "2024": 2
+        },
+        "title": "1. September",
+        "id": 3516,
+        "urlID": "https://muensterwiki.de/index.php/?curid=3516",
+        "url": "http://muensterwiki.de/index.php/1._September"
+      },
+      "3623": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Zenodotos",
+            "timestamp": "2008-02-17T09:56:22Z",
+            "revid": 9199
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2008-02-17T09:49:48Z",
+            "revid": 9196
+          }
+        ],
+        "start": 2008,
+        "end": 2024,
+        "years": {
+          "2008": 2
+        },
+        "title": "09. März",
+        "id": 3623,
+        "urlID": "https://muensterwiki.de/index.php/?curid=3623",
+        "url": "http://muensterwiki.de/index.php/09._M%C3%A4rz"
+      },
+      "3799": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-04-27T06:11:13Z",
+            "revid": 54604
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-15T00:59:49Z",
+            "revid": 53160
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-02T19:54:49Z",
+            "revid": 50495
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2020-02-02T22:13:49Z",
+            "revid": 40779
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-10-30T16:58:59Z",
+            "revid": 27275
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-09-19T11:48:37Z",
+            "revid": 26493
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-08-03T16:35:14Z",
+            "revid": 25881
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-06-23T16:16:33Z",
+            "revid": 25346
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-06-11T16:24:01Z",
+            "revid": 25122
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2010-10-17T22:56:19Z",
+            "revid": 19301
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-07-09T15:49:59Z",
+            "revid": 18632
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-07-09T15:48:05Z",
+            "revid": 18631
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2009-06-26T09:34:16Z",
+            "revid": 15562
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2008-08-25T16:40:42Z",
+            "revid": 13496
+          }
+        ],
+        "start": 2008,
+        "end": 2024,
+        "years": {
+          "2008": 1,
+          "2009": 1,
+          "2010": 3,
+          "2012": 5,
+          "2020": 1,
+          "2024": 3
+        },
+        "title": "1. November",
+        "id": 3799,
+        "urlID": "https://muensterwiki.de/index.php/?curid=3799",
+        "url": "http://muensterwiki.de/index.php/1._November"
+      },
+      "4041": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-15T00:31:49Z",
+            "revid": 52919
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-09T23:26:43Z",
+            "revid": 51011
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2020-01-31T14:44:55Z",
+            "revid": 40696
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2016-10-07T15:07:19Z",
+            "revid": 34383
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-12-07T10:42:21Z",
+            "revid": 31203
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-06-14T12:59:27Z",
+            "revid": 30098
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-12-28T15:43:21Z",
+            "revid": 28379
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-12-14T14:59:13Z",
+            "revid": 27926
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-11-28T16:48:11Z",
+            "revid": 27756
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-11-16T15:27:47Z",
+            "revid": 27565
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-11-04T18:37:21Z",
+            "revid": 27392
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-08-18T15:36:50Z",
+            "revid": 26085
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-08-18T15:36:31Z",
+            "revid": 26084
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-07-20T15:44:10Z",
+            "revid": 25818
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-04-04T16:25:46Z",
+            "revid": 24438
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-12-19T14:24:51Z",
+            "revid": 21830
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2011-08-06T12:06:03Z",
+            "revid": 20512
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2009-03-05T01:46:57Z",
+            "revid": 14704
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2009-03-05T01:44:14Z",
+            "revid": 14702
+          }
+        ],
+        "start": 2009,
+        "end": 2024,
+        "years": {
+          "2009": 2,
+          "2011": 2,
+          "2012": 9,
+          "2013": 2,
+          "2016": 1,
+          "2020": 1,
+          "2024": 2
+        },
+        "title": "1. März",
+        "id": 4041,
+        "urlID": "https://muensterwiki.de/index.php/?curid=4041",
+        "url": "http://muensterwiki.de/index.php/1._M%C3%A4rz"
+      },
+      "4107": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-04-27T06:11:49Z",
+            "revid": 54606
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-15T00:45:51Z",
+            "revid": 53040
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-06T16:49:56Z",
+            "revid": 50615
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2020-02-02T17:07:47Z",
+            "revid": 40735
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-09-25T17:25:42Z",
+            "revid": 32253
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-05-09T15:53:34Z",
+            "revid": 31777
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-02-27T17:42:06Z",
+            "revid": 31582
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-02-09T10:44:33Z",
+            "revid": 29120
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-12-27T12:52:49Z",
+            "revid": 28330
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-12-23T17:04:50Z",
+            "revid": 28194
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-08-27T13:33:51Z",
+            "revid": 26238
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-08-09T12:05:33Z",
+            "revid": 25888
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-07-05T10:08:40Z",
+            "revid": 25544
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-06-27T12:33:16Z",
+            "revid": 25453
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-06-12T16:06:23Z",
+            "revid": 25132
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-04-04T16:12:51Z",
+            "revid": 24436
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-04-04T16:11:27Z",
+            "revid": 24435
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-02-26T18:46:48Z",
+            "revid": 24262
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-01-27T18:29:11Z",
+            "revid": 22325
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-02-21T14:44:42Z",
+            "revid": 20155
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-07-08T15:59:00Z",
+            "revid": 18606
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-07-06T15:46:01Z",
+            "revid": 18587
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-03-11T18:23:07Z",
+            "revid": 17170
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-03-08T15:00:44Z",
+            "revid": 17093
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2009-04-04T22:02:35Z",
+            "revid": 14971
+          }
+        ],
+        "start": 2009,
+        "end": 2024,
+        "years": {
+          "2009": 1,
+          "2010": 4,
+          "2011": 1,
+          "2012": 11,
+          "2013": 1,
+          "2014": 3,
+          "2020": 1,
+          "2024": 3
+        },
+        "title": "1. Juli",
+        "id": 4107,
+        "urlID": "https://muensterwiki.de/index.php/?curid=4107",
+        "url": "http://muensterwiki.de/index.php/1._Juli"
+      },
+      "4274": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-21T01:15:45Z",
+            "revid": 53862
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-15T00:38:48Z",
+            "revid": 52980
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2020-01-31T15:16:56Z",
+            "revid": 40714
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-06-07T15:31:13Z",
+            "revid": 29991
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-01-25T13:34:54Z",
+            "revid": 28653
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-05-04T11:50:09Z",
+            "revid": 24645
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-05-04T11:49:48Z",
+            "revid": 24644
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-04-11T15:47:15Z",
+            "revid": 24495
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-04-02T13:46:08Z",
+            "revid": 24418
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-12-15T12:21:14Z",
+            "revid": 21703
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-06-24T16:06:44Z",
+            "revid": 18458
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-05-01T13:53:49Z",
+            "revid": 17692
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2009-06-29T09:22:01Z",
+            "revid": 15627
+          }
+        ],
+        "start": 2009,
+        "end": 2024,
+        "years": {
+          "2009": 1,
+          "2010": 2,
+          "2011": 1,
+          "2012": 4,
+          "2013": 2,
+          "2020": 1,
+          "2024": 2
+        },
+        "title": "1. Mai",
+        "id": 4274,
+        "urlID": "https://muensterwiki.de/index.php/?curid=4274",
+        "url": "http://muensterwiki.de/index.php/1._Mai"
+      },
+      "4294": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-15T00:49:21Z",
+            "revid": 53070
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-11T20:24:05Z",
+            "revid": 51607
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2020-02-02T18:31:29Z",
+            "revid": 40744
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-06-28T15:02:43Z",
+            "revid": 30262
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-08-01T12:28:40Z",
+            "revid": 25860
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-08-01T12:12:32Z",
+            "revid": 25856
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-06-20T16:51:54Z",
+            "revid": 25258
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-06-20T16:14:05Z",
+            "revid": 25255
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-06-20T10:41:19Z",
+            "revid": 25252
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-12-16T17:34:45Z",
+            "revid": 21807
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-11-04T15:01:38Z",
+            "revid": 21238
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-02-21T14:47:20Z",
+            "revid": 20157
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-04-06T15:38:50Z",
+            "revid": 17489
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-04-06T15:31:19Z",
+            "revid": 17488
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-04-05T14:38:24Z",
+            "revid": 17459
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2010-01-09T11:25:07Z",
+            "revid": 16651
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2009-11-30T15:55:20Z",
+            "revid": 16284
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2009-06-29T13:49:16Z",
+            "revid": 15675
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2009-06-29T13:46:40Z",
+            "revid": 15673
+          }
+        ],
+        "start": 2009,
+        "end": 2024,
+        "years": {
+          "2009": 3,
+          "2010": 4,
+          "2011": 3,
+          "2012": 5,
+          "2013": 1,
+          "2020": 1,
+          "2024": 2
+        },
+        "title": "1. August",
+        "id": 4294,
+        "urlID": "https://muensterwiki.de/index.php/?curid=4294",
+        "url": "http://muensterwiki.de/index.php/1._August"
+      },
+      "4659": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-15T00:42:19Z",
+            "revid": 53010
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-10T00:03:34Z",
+            "revid": 51068
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-09T23:20:52Z",
+            "revid": 50959
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2023-01-10T11:27:46Z",
+            "revid": 48323
+          },
+          {
+            "user": "Fred",
+            "timestamp": "2020-01-31T15:45:45Z",
+            "revid": 40724
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2017-06-09T15:21:24Z",
+            "revid": 34809
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-12-29T12:52:20Z",
+            "revid": 32655
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-12-29T12:41:14Z",
+            "revid": 32654
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-09-18T15:18:29Z",
+            "revid": 32103
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-09-11T14:19:12Z",
+            "revid": 32006
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-06-05T15:20:15Z",
+            "revid": 29945
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-11-04T18:39:50Z",
+            "revid": 27394
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-10-21T18:03:58Z",
+            "revid": 27056
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-09-03T13:18:34Z",
+            "revid": 26345
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-09-01T08:43:23Z",
+            "revid": 26324
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-05-30T01:55:08Z",
+            "revid": 24964
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-02-28T17:26:10Z",
+            "revid": 24295
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-02-26T19:14:00Z",
+            "revid": 24263
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-12-22T16:59:21Z",
+            "revid": 21861
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-12-22T16:58:56Z",
+            "revid": 21860
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-05-21T16:01:49Z",
+            "revid": 18084
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-05-21T15:49:40Z",
+            "revid": 18083
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-03-21T18:20:30Z",
+            "revid": 17276
+          }
+        ],
+        "start": 2010,
+        "end": 2024,
+        "years": {
+          "2010": 3,
+          "2011": 2,
+          "2012": 7,
+          "2013": 1,
+          "2014": 4,
+          "2017": 1,
+          "2020": 1,
+          "2023": 1,
+          "2024": 3
+        },
+        "title": "1. Juni",
+        "id": 4659,
+        "urlID": "https://muensterwiki.de/index.php/?curid=4659",
+        "url": "http://muensterwiki.de/index.php/1._Juni"
+      },
+      "4684": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-15T00:36:24Z",
+            "revid": 52959
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-13T16:43:55Z",
+            "revid": 51772
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-01T15:52:26Z",
+            "revid": 50360
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2021-02-26T09:54:16Z",
+            "revid": 47012
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-07-11T16:19:33Z",
+            "revid": 30406
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-06-05T16:20:34Z",
+            "revid": 29960
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-06-05T13:57:52Z",
+            "revid": 29926
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-01-22T09:05:07Z",
+            "revid": 28605
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-10-16T04:41:59Z",
+            "revid": 26955
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-04-27T13:39:37Z",
+            "revid": 24567
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-03-14T13:33:12Z",
+            "revid": 24361
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2011-12-12T13:10:56Z",
+            "revid": 21655
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-03-31T09:53:04Z",
+            "revid": 17421
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-03-26T15:58:48Z",
+            "revid": 17348
+          }
+        ],
+        "start": 2010,
+        "end": 2024,
+        "years": {
+          "2010": 2,
+          "2011": 1,
+          "2012": 3,
+          "2013": 4,
+          "2021": 1,
+          "2024": 3
+        },
+        "title": "10. April",
+        "id": 4684,
+        "urlID": "https://muensterwiki.de/index.php/?curid=4684",
+        "url": "http://muensterwiki.de/index.php/10._April"
+      },
+      "4900": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-15T00:50:23Z",
+            "revid": 53079
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-12T23:34:22Z",
+            "revid": 51683
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-10T00:03:37Z",
+            "revid": 51070
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-09T23:26:48Z",
+            "revid": 51014
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2014-12-05T16:49:02Z",
+            "revid": 32474
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2013-07-12T12:21:29Z",
+            "revid": 30440
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-08-12T16:30:45Z",
+            "revid": 25995
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-08-10T15:36:44Z",
+            "revid": 25907
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2012-06-21T16:13:19Z",
+            "revid": 25267
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-08-29T19:44:59Z",
+            "revid": 18908
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-06-07T13:58:38Z",
+            "revid": 18230
+          }
+        ],
+        "start": 2010,
+        "end": 2024,
+        "years": {
+          "2010": 2,
+          "2012": 3,
+          "2013": 1,
+          "2014": 1,
+          "2024": 4
+        },
+        "title": "10. August",
+        "id": 4900,
+        "urlID": "https://muensterwiki.de/index.php/?curid=4900",
+        "url": "http://muensterwiki.de/index.php/10._August"
+      },
+      "4972": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-11T18:21:20Z",
+            "revid": 51534
+          },
+          {
+            "user": "Joachim Stiller",
+            "timestamp": "2017-10-26T15:01:10Z",
+            "revid": 35750
+          },
+          {
+            "user": "Joachim Stiller",
+            "timestamp": "2017-10-26T15:00:35Z",
+            "revid": 35749
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-07-02T16:18:05Z",
+            "revid": 18552
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-07-02T13:43:17Z",
+            "revid": 18551
+          },
+          {
+            "user": "Zenodotos",
+            "timestamp": "2010-07-02T13:25:30Z",
+            "revid": 18550
+          }
+        ],
+        "start": 2010,
+        "end": 2024,
+        "years": {
+          "2010": 3,
+          "2017": 2,
+          "2024": 1
+        },
+        "title": "(4569) Baerbel",
+        "id": 4972,
+        "urlID": "https://muensterwiki.de/index.php/?curid=4972",
+        "url": "http://muensterwiki.de/index.php/(4569)_Baerbel"
+      },
+      "6776": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Arwen",
+            "timestamp": "2016-02-07T20:28:09Z",
+            "revid": 33723
+          },
+          {
+            "user": "Arwen",
+            "timestamp": "2016-02-07T19:55:16Z",
+            "revid": 33691
+          },
+          {
+            "user": "Arwen",
+            "timestamp": "2016-02-07T19:35:30Z",
+            "revid": 33672
+          },
+          {
+            "user": "Mammuts",
+            "timestamp": "2012-03-27T15:43:04Z",
+            "revid": 24413
+          },
+          {
+            "user": "Mammuts",
+            "timestamp": "2012-03-27T15:41:51Z",
+            "revid": 24411
+          },
+          {
+            "user": "Mammuts",
+            "timestamp": "2012-03-27T15:40:40Z",
+            "revid": 24410
+          }
+        ],
+        "start": 2012,
+        "end": 2024,
+        "years": {
+          "2012": 3,
+          "2016": 3
+        },
+        "title": "1. American-Football-Club Münster Mammuts e. V.",
+        "id": 6776,
+        "urlID": "https://muensterwiki.de/index.php/?curid=6776",
+        "url": "http://muensterwiki.de/index.php/1._American-Football-Club_M%C3%BCnster_Mammuts_e._V."
+      },
+      "10699": {
+        "httpStatus": "200",
+        "lastModified": "Mon, 16 Sep 2024 21:17:11 GMT",
+        "revisions": [
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-01T19:30:44Z",
+            "revid": 50415
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-01T19:18:30Z",
+            "revid": 50410
+          },
+          {
+            "user": "Keeano",
+            "timestamp": "2024-02-01T19:12:52Z",
+            "revid": 50408
+          }
+        ],
+        "start": 2024,
+        "end": 2024,
+        "years": {
+          "2024": 3
+        },
+        "title": "\"Kiffe-Pavillon\"",
+        "id": 10699,
+        "urlID": "https://muensterwiki.de/index.php/?curid=10699",
+        "url": "http://muensterwiki.de/index.php/%22Kiffe-Pavillon%22"
+      }
+    },
+    "logoUrl": "http://muensterwiki.de/skins/muensterwiki.gif"
+  },
+  "wiki2.0": {
+    "url": "https://portal.hey-muenster.de",
+    "projects": {
+      "1": {
+        "httpStatus": "200",
+        "lastModified": "Fri, 27 Sep 2024 21:52:33 GMT",
+        "revisions": [
+          {
+            "user": "~2024-1",
+            "timestamp": "2024-09-27T19:03:40Z",
+            "revid": 5
+          },
+          {
+            "user": "~2024-1",
+            "timestamp": "2024-09-27T19:03:05Z",
+            "revid": 4
+          },
+          {
+            "user": "~2024-1",
+            "timestamp": "2024-09-27T19:01:42Z",
+            "revid": 3
+          },
+          {
+            "user": "~2024-1",
+            "timestamp": "2024-09-27T18:37:27Z",
+            "revid": 2
+          },
+          {
+            "user": "MediaWiki default",
+            "timestamp": "2024-09-27T15:17:57Z",
+            "revid": 1
+          }
+        ],
+        "start": 2024,
+        "end": 2024,
+        "years": {
+          "2024": 5
+        },
+        "title": "Main Page",
+        "id": 1,
+        "urlID": "https://portal.hey-muenster.de/wiki/?curid=1",
+        "url": "http://localhost:8080/wiki/Main_Page"
+      },
+      "2": {
+        "httpStatus": "200",
+        "lastModified": "Fri, 27 Sep 2024 22:04:48 GMT",
+        "revisions": [
+          {
+            "user": "Admin",
+            "timestamp": "2024-09-27T22:04:48Z",
+            "revid": 18
+          },
+          {
+            "user": "Admin",
+            "timestamp": "2024-09-27T21:59:48Z",
+            "revid": 17
+          },
+          {
+            "user": "~2024-2",
+            "timestamp": "2024-09-27T19:59:15Z",
+            "revid": 12
+          },
+          {
+            "user": "Tom",
+            "timestamp": "2024-09-27T19:38:26Z",
+            "revid": 10
+          },
+          {
+            "user": "Tom",
+            "timestamp": "2024-09-27T19:37:23Z",
+            "revid": 9
+          },
+          {
+            "user": "~2024-1",
+            "timestamp": "2024-09-27T19:30:54Z",
+            "revid": 7
+          },
+          {
+            "user": "~2024-1",
+            "timestamp": "2024-09-27T19:05:40Z",
+            "revid": 6
+          }
+        ],
+        "start": 2024,
+        "end": 2024,
+        "years": {
+          "2024": 7
+        },
+        "title": "Hauptseite",
+        "id": 2,
+        "urlID": "https://portal.hey-muenster.de/wiki/?curid=2",
+        "url": "http://localhost:8080/wiki/Hauptseite"
+      },
+      "4": {
+        "httpStatus": "200",
+        "lastModified": "Fri, 27 Sep 2024 21:52:33 GMT",
+        "revisions": [
+          {
+            "user": "Tom",
+            "timestamp": "2024-09-27T19:43:09Z",
+            "revid": 11
+          }
+        ],
+        "start": 2024,
+        "end": 2024,
+        "years": {
+          "2024": 1
+        },
+        "title": "Index.php",
+        "id": 4,
+        "urlID": "https://portal.hey-muenster.de/wiki/?curid=4",
+        "url": "http://localhost:8080/wiki/Index.php"
+      }
+    },
+    "logoUrl": "https://portal.hey-muenster.de/w/images/e/e1/MS_Logo.png"
+  }
+}
