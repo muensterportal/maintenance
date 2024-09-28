@@ -1,0 +1,10 @@
+{
+  "src/frontend/main.ts": {
+    "file": "assets/main.8c5d721f.js",
+    "src": "src/frontend/main.ts",
+    "isEntry": true,
+    "css": [
+      "assets/main.2c0a6eff.css"
+    ]
+  }
+}
