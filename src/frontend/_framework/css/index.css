@@ -15,3 +15,27 @@ body{
     font-family:monospace;
 }
 
+.bg-danger >  td {
+    background-color: #ff0000;
+}
+.bg-warning > td {
+    background-color: #ffcc00;
+}
+.bg-success > td {
+    background-color: #00ff00;
+}   
+
+
+
+.logo-container {
+    width: 40px; /* Set the width of the visible part */
+    height: 40px; /* Set the height */
+    overflow: hidden; /* Hide anything that exceeds the container */
+  }
+  
+  .logo-img {
+    width: auto; /* Allow the logo to keep its original aspect ratio */
+    height: 100%; /* Ensure the height fits the container */
+    object-position: left; /* Show the left side of the image */
+    object-fit: cover; /* Prevent distortion */
+  }

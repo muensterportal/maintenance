@@ -63,6 +63,7 @@ export const getHttpItem = (input: string): HTTPStatusBase => {
         }
     });
     if(httpItem.status === undefined){
+        console.log(httpItem);
         httpItem.status = '0';
     }
     return httpItem;
@@ -72,7 +73,7 @@ export const getHttpItem = (input: string): HTTPStatusBase => {
 export const getHTTPStatus = (url: string, timeout?: number): HTTPStatusBase => {
     // const timeoutConfig = timeout? CURL_CONFIG_STATUS.replace(/(\d*\.\d*)/, timeout.toString()) : CURL_CONFIG_STATUS;
     // console.log(timeoutConfig)
-    const status = command(`curl -I ${url} ${CURL_CONFIG_STATUS}`);
+    const status = command(`curl -I ${url} ${CURL_CONFIG_STATUS} `);
     const httpItem = getHttpItem(status);
     return httpItem;
 }

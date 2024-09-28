@@ -15,31 +15,42 @@ title: Eleventy with Vite
   }}
   <section id="navigation">
     {% for key, project in projects %}
-        <img src="{{project.logoUrl | safe}}" width="40" height="40" data-project-filter="{{key}}" />
+    <div class="bg-light p-3 d-inline-block" data-project-filter="{{key}}">
+        <img src="{{project.logoUrl | safe}}"  height="40"  />
+    </div>
     {% endfor %}
   </section>
 
     {% for key, project in projects %}
         <section data-projects="{{key}}">
         <h2>{{key}}</h2>
+        <p >alle Projekte: <span>{{project.num}}</span> </p>
         <p data-found="{{key}}">gefundene Projekte: <span></span> </p>
     
             <table class="table table-striped">
                 <thead>
                     <tr>
+                        <th>status</th>
                         <th>Logo</th>
                         <th>Key</th>
                         <th>url</th>
                         {# <th>Value</th> #}
                         <th>revisions</th>
-                        <th>first change</th>
+                        <th>interne links</th>
+                        <th>externe links</th>
+                        {# <th>first change</th> #}
                         <th>Activity</th>
                     </tr>
                 </thead>
                 <tbody>
                     {% for key, value in project.projects %}
-                        <tr  data-project="{{value.title}}">
-                            <td><img src="{{project.logoUrl | safe}}" width="40" height="40" /></td>
+                        <tr class="{{value.statusCSS}}"  data-project="{{value.title}}">
+                            <td>{{value.status}}</td>
+                            <td>
+                                <div class="logo-container">
+                                    <img src="{{project.logoUrl | safe}}" class="logo-img" />
+                                  </div>
+                            </td>
                         <td>{{ key }}</td>
                         <td><a href="{{ value.url | url}}" target="_blank">
                             {# {{ value.title }} #}
@@ -48,21 +59,23 @@ title: Eleventy with Vite
                         </a></td>
                         {# <td>{{ value }}</td> #}
                         <td>{{ value.revisions.length }}</td>
-                        <td>{{ value.revisions[ value.revisions.length -1 ].timestamp }}</td>
+                        <td>{{value.links.length}}</td>
+                        <td>{{value.extlinks.length}}</td>
+                        {# <td>{{ value.revisions[ value.revisions.length -1 ].timestamp }}</td> #}
                         <td>
                             <div class="activity__table">
         
                                 <table class="activity fixed-height-table">
                                     <thead>
                                         <tr>
-                                            {% for year in range(value.start, value.end +1) %}
+                                            {% for year in range(2005, value.end +1) %}
                                             <td>{{ year | shortyear }}</td>
                                             {% endfor %}
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            {% for year in range(value.start, value.end +1) %}
+                                            {% for year in range(2005, value.end +1) %}
                                             {% set activityClass = value.years[year] | activity %}
                                             <td class="{{ activityClass }}">&nbsp;</td>
                                             {% endfor %}
@@ -70,6 +83,67 @@ title: Eleventy with Vite
                                     </tbody>    
                                 </table>
                             </div>
+                            {% if (value.showIssues) %}
+                            <div class="acXYtivity__table">
+
+                            </div>
+                                <p>
+                                 
+                                    {% if value.warnings.length > 0 %}
+                                        <div class="acXYtivity__table">
+                                            <table>
+                                                <thead>
+                                                    <tr>
+                                                        <td>Warnings</td>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    {% for warning in value.warnings %}
+                                                    <tr>
+                                                        <td><small>{{ warning }}</small></td>
+                                                    </tr>
+                                                    {% endfor %}
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    {% endif %}
+                                    {% if value.errors.length > 0 %}
+                                    <div class="acXYtivity__table">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <td>Errors</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {% for error in value.errors %}
+                                                <tr>
+                                                    <td><small>{{ error }}</small></td>
+                                                </tr>
+                                                {% endfor %}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    {% endif %}
+                                </p>
+                                
+                            {% endif %}
+                            {# <div class="acXYtivity__table">
+                                <table class="activity fixed-height-table">
+                                    <thead>
+                                        <tr>
+                                            <td>Warnings</td>
+                                            <td>Errors</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>{{ value.warnings.length }}</td>
+                                            <td>{{ value.errors.length }}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div> #}
                         </td>
                         </tr>
                     {% endfor %}

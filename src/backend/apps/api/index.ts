@@ -12,7 +12,7 @@ const projects = [
         apiUrl: 'https://muensterwiki.de/api.php'
     },
     {
-        project: 'wiki2.0',
+        project: 'Münster4You',
         url: 'https://portal.hey-muenster.de',
         projectUrl: 'https://portal.hey-muenster.de/wiki',
         apiUrl: 'https://portal.hey-muenster.de/w/api.php'

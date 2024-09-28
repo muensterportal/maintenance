@@ -1,7 +1,32 @@
 import { command } from "../../../_shared/cmd/cmd";
 import { writeFileSync } from "../../../_shared/fs/fs";
 import { getHTTPStatus, getHttpStatus } from "../../../_shared/http/http";
-import { LOG, OK, WARNING } from "../../../_shared/log/log";
+import { ERROR, LOG, OK, WARNING } from "../../../_shared/log/log";
+
+const isProduction = process.env.NODE_ENV === 'production';
+const MAX = isProduction ? 200 : 40;
+
+
+export const getPageByTitle = (title: string, apiUrl: string) => {
+    //https://muensterwiki.de/api.php?action=query&titles=1945&prop=info&inprop=url&format=json
+    const url = `${apiUrl}?action=query&titles=${encodeURI(title)}&prop=info&inprop=url&format=json`;
+    const data = command(`curl -s -X GET -H "Content-type: application/json"  -H "Accept: application/json"  "${url}"`);
+    const json = JSON.parse(data);
+    if(json.query.pages){
+        // const pageID = Object.values(json.query.pages)[0];
+        const dataX: any = Object.values(json.query.pages)[0];
+        const id = dataX.pageid;
+        if(id && id !== -1){
+            return { id: id, data: { ...dataX } };
+        } else {
+            return {id: -1, data: {}};
+        }
+        // return page;
+    } else {
+        return {id: -1, data: {}};
+    }
+    // return -1
+}
 
 export const getProjectData = (projects: any) => {
     const dataAll: any = {};
@@ -11,7 +36,8 @@ export const getProjectData = (projects: any) => {
         const data = getWikiData(project.projectUrl, project.apiUrl);
         dataAll[`${project.project}`] = {
             url: project.url,
-            projects: { ...data },
+            projects: { ...data.data },
+            num: data.num,
             logoUrl: jsonGeneral.query.general.logo
         }
     }
@@ -20,17 +46,14 @@ export const getProjectData = (projects: any) => {
 }
 
 export const getWikiData = (projectUrl: string, apiUrl: string) => {
-    // const httpStatus = getHttpStatus('https://muensterwiki.de/index.php/Hauptseite');
-    // LOG(OK, httpStatus);
-
     // https://muensterwiki.de/api.php?action=query&list=allpages&aplimit=500&format=json&apfrom=1978
 
     let next: string = '';
     let num: number = 0;
     const listToCheck: string[] = [];
-    for(let i = 0; i < 20; i++){
+    for(let i = 0; i < MAX; i++){
         const url = next  ? `${apiUrl}?action=query&list=allpages&aplimit=500&format=json&apfrom=${next}` : i == 0 ? `${apiUrl}?action=query&list=allpages&aplimit=500&format=json` : '';
-        const data = command(`curl -X GET -H "Content-type: application/json"  -H "Accept: application/json"  "${url}"`);
+        const data = command(`curl -s -X GET -H "Content-type: application/json"  -H "Accept: application/json"  "${url}"`);
 
         const json = JSON.parse(data);
         // console.log(json.query.allpages.length)
@@ -41,7 +64,7 @@ export const getWikiData = (projectUrl: string, apiUrl: string) => {
         // console.log(json)
         if(json.continue){
             next = json.continue.apcontinue;
-            console.log(next);
+            // console.log(next);
         } else {
             LOG(WARNING, 'no more data');
             break;
@@ -57,9 +80,8 @@ export const getWikiData = (projectUrl: string, apiUrl: string) => {
 
     let j = 0;
     for(const item of listToCheck){
-        console.log(item)
         const id = (item.id).toString();
-        if(j > 20){
+        if(j > MAX){
             break;
         }
         // const url = `https://muensterwiki.de/api.php?action=query&pageids=${item.id}&prop=revisions&rvlimit=max&rvprop=ids|timestamp|user|comment|content&format=json`;
@@ -71,21 +93,18 @@ export const getWikiData = (projectUrl: string, apiUrl: string) => {
         // https://muensterwiki.de/api.php?action=query&pageids=3352&&prop=revisions&rvlimit=max&rvprop=ids|timestamp|user|comment|content&format=json
         // https://muensterwiki.de/index.php?curid=5611
 
-        // LOG(DEBUG, `checking ${url}`);
         const httpStatus = getHTTPStatus(`${url}`);
-        console.log(url);
-        console.log(JSON.stringify(httpStatus));
         const details: any = {
             httpStatus: httpStatus.status,
             lastModified: httpStatus.lastModified,
             revisions: []
         }
 
-        const url2 = `${apiUrl}?action=query&pageids=${id}&prop=info|revisions&inprop=url&rvlimit=max&rvprop=ids|timestamp|user|comment|content|url&format=json`;
-        const data = command(`curl -X GET -H "Content-type: application/json"  -H "Accept: application/json"  "${url2}"`);
+        const url2 = `${apiUrl}?action=query&pageids=${id}&prop=info|revisions|categories|links|extlinks&inprop=url&rvlimit=max&rvprop=ids|timestamp|user|comment|content|url&format=json`;
+        const data = command(`curl -s -X GET -H "Content-type: application/json"  -H "Accept: application/json"  "${url2}"`);
         const json2 = JSON.parse(data);
         const pageData = json2.query.pages[`${id}`];
-        console.log(url2)
+        // console.log(url2)
         const years = {}
         const currentYear = new Date().getFullYear();
         const firstRevision = pageData.revisions.length - 1;
@@ -99,12 +118,61 @@ export const getWikiData = (projectUrl: string, apiUrl: string) => {
                 years[`${year}`] = years[`${year}`] + 1;
             }
             
-// console.log(json2.query.pages[`${id}`]);
             details['revisions'].push({ 
                 user: revision.user, timestamp: revision.timestamp, 
                 // comment: revision.comment, 
                 revid: revision.revid });
         }
+        details['extlinks'] = [];
+        details['warnings'] = [];
+        details['errors'] = [];
+        if(pageData.extlinks){
+            for(const link of pageData.extlinks){
+                const key = Object.keys(link)[0];
+                const url = encodeURI(link[key]);
+                const httpStatus = getHTTPStatus(`${url}`);
+                const status: number = parseInt(httpStatus.status, 10);
+                if(status >= 400){
+                    details['errors'].push(`page ${link[key]} not found with status ${httpStatus.status}`);
+                } else if(status >= 300 && status < 400) {
+
+                    details['warnings'].push(`redirect: ${httpStatus.status} for ${link[key]}`);
+                }  else if(status >= 200 && status < 300) {
+                    // tbd
+                } else {
+                    details['errors'].push(`page ${link[key]} not found with status ${httpStatus.status}`);
+                }
+
+                details['extlinks'].push({ url: link[key], httpStatus: httpStatus.status, lastModified: httpStatus.lastModified });
+            }
+        // console.log(url2);
+        // console.log(pageData)
+        }
+        details['links'] = [];
+
+        if(pageData.links){
+            for(const link of pageData.links){
+                const key = Object.keys(link)[0];
+                const page = getPageByTitle(link.title, apiUrl);
+                if(page){
+
+                    if(page.id === -1){
+                        details['links'].push({ title: link.title, id: -1, });
+                        details['errors'].push(`page not found by title "${link.title}"`);
+                        LOG(WARNING, `page not found: ${link.title}`);
+                    } else {
+                        details['links'].push({ title: link.title, id: page.id, url: page.data.fullurl });
+                    }
+                } else {
+                    details['errors'].push(`page not found by title "${link.title}"`);
+                    LOG(ERROR, `no page data: ${link.title}`);
+                }
+            }
+        }
+
+        details['categories'] = pageData.categories ? [...pageData.categories] : [];
+        // details['links'] = pageData.links ? [...pageData.links] : [];
+
         details['start'] = firstYear;
         details['end'] = currentYear;
         details['years'] = {...years};
@@ -112,22 +180,17 @@ export const getWikiData = (projectUrl: string, apiUrl: string) => {
         details['id'] = item.id;
         details['urlID'] = url;
         details['url'] = pageData.fullurl;
-        
+        details['status'] = details.errors.length > 0 ? 'error' : details.warnings.length > 0 ? 'warning' : 'ok';
+        details['statusCSS'] = details.errors.length > 0 ? 'bg-danger' : details.warnings.length > 0 ? 'bg-warning' : 'bg-success';
 
-
-        // details['revisions'] = [...json2.query.pages[`${item.id}`].revisions];
-        // console.log(json2.query.pages[`${item.id}`].revisions);
-        // console.log(details);
-
+        details['showIssues'] = details.errors.length > 0 || details.warnings.length > 0 ? true : false;
         if(!dataAll[`${id}`]){
             dataAll[`${id}`] = { ...details};
         }
         j++;
+        LOG(OK, `[${j} / ${num}] - ${details.url}`);
     }
-    // console.log(dataAll);
-    writeFileSync('src/_data/data.json', JSON.stringify(dataAll));
-    writeFileSync('src/_data/data2.json', JSON.stringify(dataAll, null, 2));
 
     // const data = command('curl -X GET -H "Content-type: application/json"  -H "Accept: application/json"  "https://portal.hey-muenster.de/w/api.php?action=query&list=allpages&aplimit=500&format=json"');
-    return dataAll;
+    return { data: { ...dataAll}, num: num };
  };

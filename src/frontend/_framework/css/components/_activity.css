@@ -25,6 +25,7 @@
     height: 30px;
     background-color: black;
     padding: 2px;
+    width: 250px;
 }
 
 .fixed-height-table {
