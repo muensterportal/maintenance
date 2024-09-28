@@ -26,3 +26,6 @@
 .search__info--hidden{
     opacity: 0;
 }
+[data-project-filter]:not(.active){
+    opacity: 0.5;
+}

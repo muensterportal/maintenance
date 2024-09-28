@@ -5,54 +5,78 @@ title: Eleventy with Vite
 {%- from "./../templates/_setup/macros/component.macro.njk" import component -%}
 
 
+{{
+    component("search", {
+      placeholder: "Projektsuche",
+      uid: "projects",
+      category: "projects",
+      no_result: ["Offensichtlich ist", "eine Sache, die wir noch listen müssen!" ]
+    })
+  }}
+  <section id="navigation">
+    {% for key, project in projects %}
+        <img src="{{project.logoUrl | safe}}" width="40" height="40" data-project-filter="{{key}}" />
+    {% endfor %}
+  </section>
 
     {% for key, project in projects %}
-    <h2>{{key}}</h2>
-
-        <table class="table table-striped">
-            <tr>
-                <th>Logo</th>
-                <th>Key</th>
-                <th>url</th>
-                {# <th>Value</th> #}
-                <th>revisions</th>
-                <th>first change</th>
-                <th>Activity</th>
-            </tr>
-            {% for key, value in project.projects %}
-                <tr>
-                    <td><img src="{{project.logoUrl | safe}}" width="40" height="40" /></td>
-                <td>{{ key }}</td>
-                <td><a href="{{ value.url | url}}" target="_blank">{{ value.title }}</a></td>
-                {# <td>{{ value }}</td> #}
-                <td>{{ value.revisions.length }}</td>
-                <td>{{ value.revisions[ value.revisions.length -1 ].timestamp }}</td>
-                <td>
-                    <div class="activity__table">
-
-                        <table class="activity fixed-height-table">
-                            <thead>
-                                <tr>
-                                    {% for year in range(value.start, value.end +1) %}
-                                    <td>{{ year | shortyear }}</td>
-                                    {% endfor %}
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    {% for year in range(value.start, value.end +1) %}
-                                    {% set activityClass = value.years[year] | activity %}
-                                    <td class="{{ activityClass }}">&nbsp;</td>
-                                    {% endfor %}
-                                </tr>
-                            </tbody>    
-                        </table>
-                    </div>
-                </td>
-                </tr>
-            {% endfor %}
-        </table>
-    {% endfor %}
+        <section data-projects="{{key}}">
+        <h2>{{key}}</h2>
+        <p data-found="{{key}}">gefundene Projekte: <span></span> </p>
+    
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Logo</th>
+                        <th>Key</th>
+                        <th>url</th>
+                        {# <th>Value</th> #}
+                        <th>revisions</th>
+                        <th>first change</th>
+                        <th>Activity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for key, value in project.projects %}
+                        <tr  data-project="{{value.title}}">
+                            <td><img src="{{project.logoUrl | safe}}" width="40" height="40" /></td>
+                        <td>{{ key }}</td>
+                        <td><a href="{{ value.url | url}}" target="_blank">
+                            {# {{ value.title }} #}
+                            <span class="skill-value">{{value.title}}</span>
+                            <span class="skill-search hidden">{{value.title}}</span>
+                        </a></td>
+                        {# <td>{{ value }}</td> #}
+                        <td>{{ value.revisions.length }}</td>
+                        <td>{{ value.revisions[ value.revisions.length -1 ].timestamp }}</td>
+                        <td>
+                            <div class="activity__table">
+        
+                                <table class="activity fixed-height-table">
+                                    <thead>
+                                        <tr>
+                                            {% for year in range(value.start, value.end +1) %}
+                                            <td>{{ year | shortyear }}</td>
+                                            {% endfor %}
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            {% for year in range(value.start, value.end +1) %}
+                                            {% set activityClass = value.years[year] | activity %}
+                                            <td class="{{ activityClass }}">&nbsp;</td>
+                                            {% endfor %}
+                                        </tr>
+                                    </tbody>    
+                                </table>
+                            </div>
+                        </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+        {% endfor %}
 
 
 {# {% for key, value in data %}
@@ -61,4 +85,4 @@ title: Eleventy with Vite
 
 
 
-env: {{ env }}
+{# env: {{ env }} #}

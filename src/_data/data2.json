@@ -1,7 +1,7 @@
 {
   "1": {
     "httpStatus": "200",
-    "lastModified": "Fri, 27 Sep 2024 21:52:33 GMT",
+    "lastModified": "Sat, 28 Sep 2024 09:42:00 GMT",
     "revisions": [
       {
         "user": "~2024-1",
@@ -41,8 +41,13 @@
   },
   "2": {
     "httpStatus": "200",
-    "lastModified": "Fri, 27 Sep 2024 22:04:48 GMT",
+    "lastModified": "Sat, 28 Sep 2024 09:57:32 GMT",
     "revisions": [
+      {
+        "user": "Admin",
+        "timestamp": "2024-09-28T09:47:29Z",
+        "revid": 27
+      },
       {
         "user": "Admin",
         "timestamp": "2024-09-27T22:04:48Z",
@@ -82,7 +87,7 @@
     "start": 2024,
     "end": 2024,
     "years": {
-      "2024": 7
+      "2024": 8
     },
     "title": "Hauptseite",
     "id": 2,
@@ -91,7 +96,7 @@
   },
   "4": {
     "httpStatus": "200",
-    "lastModified": "Fri, 27 Sep 2024 21:52:33 GMT",
+    "lastModified": "Sat, 28 Sep 2024 09:42:00 GMT",
     "revisions": [
       {
         "user": "Tom",

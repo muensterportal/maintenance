@@ -3,4 +3,4 @@ import './_framework/css/index.css';
 import { createSearch } from './components/molecules/search/search.molecule';
 
 
-createSearch('data-search', 'skills', '[data-skill]');
+createSearch('data-search', 'projects', '[data-project]');
