@@ -22,9 +22,13 @@ jobs:
 
       - name: Build Eleventy Site
         run: npm run build
+      
+      - name: Rename _site to docs
+        run: mv _site docs
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          publish_dir: ./_site  # oder ./docs, wenn du das docs-Verzeichnis benutzt
+          publish_dir: ./docs  # oder ./docs, wenn du das docs-Verzeichnis benutzt
+          publish_branch: gh-pages
