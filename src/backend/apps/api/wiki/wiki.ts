@@ -4,7 +4,9 @@ import { getHTTPStatus, getHttpStatus } from "../../../_shared/http/http";
 import { ERROR, LOG, OK, WARNING } from "../../../_shared/log/log";
 
 const isProduction = process.env.NODE_ENV === 'production';
-const MAX = isProduction ? 200 : 40;
+const MAX = isProduction ? 200 : 2;
+
+var convert = require('xml-js');
 
 
 export const getPageByTitle = (title: string, apiUrl: string) => {
@@ -28,17 +30,59 @@ export const getPageByTitle = (title: string, apiUrl: string) => {
     // return -1
 }
 
+const convertXMLToJSON = (xml: string) => {
+    var xmlData = convert.xml2json(xml, {
+        compact: true,
+        space: 4
+    });
+    return xmlData;
+}
+
+export const getUrlsFromSitemap = (sitemap: string[]) => {
+    const allUrls = [];
+    for(const url of sitemap){
+        const data = command(`curl -s -X GET -H "Content-type: application/json"  -H "Accept: application/json"  "${url}"`);
+        // console.log(data);
+        const json = convertXMLToJSON(data);
+        const json2 = JSON.parse(json);
+        const urls = json2.urlset.url;
+        for(const url of urls){
+            allUrls.push(url);
+        }
+    }
+    return allUrls
+}
+
 export const getProjectData = (projects: any) => {
     const dataAll: any = {};
     for(const project of projects){
-        const dataGeneral = command(`curl -X GET -H "Content-type: application/json"  -H "Accept: application/json"  "${project.apiUrl}?action=query&meta=siteinfo&format=json&siprop=general"`);
-        const jsonGeneral = JSON.parse(dataGeneral);
-        const data = getWikiData(project.projectUrl, project.apiUrl);
-        dataAll[`${project.project}`] = {
-            url: project.url,
-            projects: { ...data.data },
-            num: data.num,
-            logoUrl: jsonGeneral.query.general.logo
+        if(project.type == 'wiki'){
+            const dataGeneral = command(`curl -X GET -H "Content-type: application/json"  -H "Accept: application/json"  "${project.apiUrl}?action=query&meta=siteinfo&format=json&siprop=general"`);
+            const jsonGeneral = JSON.parse(dataGeneral);
+            const data = getWikiData(project.projectUrl, project.apiUrl);
+            dataAll[`${project.project}`] = {
+                url: project.url,
+                projects: { ...data.data },
+                num: data.num,
+                logoUrl: jsonGeneral.query.general.logo
+            }
+        } else {
+            const urls = getUrlsFromSitemap(project.sitemap);
+            
+            const projects: any = {};
+            for(const url of urls){
+                const httpStatus = getHTTPStatus(url.loc._text);
+                const statusCode = parseInt(httpStatus.status, 10);
+                const status = statusCode >= 400 ? 'error' : statusCode >= 300 && statusCode < 400 ? 'warning' : 'ok';
+                const statusCSS = statusCode >= 400 ? 'bg-danger' : statusCode >= 300 && statusCode < 400 ? 'bg-warning' : 'bg-success';
+                projects[`${url.loc._text}`] = { lastModified: url.lastmod._text, url: url.loc._text, httpStatus: httpStatus.status, status: status, statusCSS: statusCSS };
+            }
+            dataAll[`${project.project}`] = {
+                url: project.url,
+                projects: { ...projects },
+                num: urls.length,
+                logoUrl: project.logoUrl
+            }
         }
     }
     writeFileSync('src/_data/projects.json', JSON.stringify(dataAll));

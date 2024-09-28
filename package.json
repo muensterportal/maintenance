@@ -67,5 +67,8 @@
     "build:debug_eleventy": "DEBUG=Eleventy* eleventy",
     "build:vite": "vite build --config vite.config.js",
     "prod_serve": "NODE_ENV=production npm run build && serve _site"
+  },
+  "dependencies": {
+    "xml-js": "^1.6.11"
   }
 }
